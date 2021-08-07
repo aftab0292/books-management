@@ -1,0 +1,25 @@
+{
+  "name": "books-management",
+  "version": "1.0.0",
+  "description": "Simple Rest Api For Books Management",
+  "main": "server.js",
+  "repository": "https://github.com/aftab0292/books-management.git",
+  "author": "Aftab Alam <aftab.a0292@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --watchAll --detectOpenHandles"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "convict": "^5.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.4"
+  }
+}
